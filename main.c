@@ -4,7 +4,7 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 
-int factorial(n) {
+int factorial(int n) {
 	int result = 1; int i;
 	for (i=1;i<=n;i++){
 		result *= i;
